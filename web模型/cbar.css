@@ -1,0 +1,60 @@
+#cbar {
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+  z-index: 9999;
+  min-width: 118px;
+  color: #e8e8e8;
+  font-family: "Microsoft YaHei", "PingFang SC", Consolas, Menlo, monospace;
+  font-size: 12px;
+  line-height: 1.2;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 10px 12px 8px 12px;
+  border-radius: 10px;
+  user-select: none;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.cbar-title {
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.cbar-main {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.cbar-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cbar-box {
+  width: 20px;
+  height: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-sizing: border-box;
+}
+
+.cbar-labels {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-left: 8px;
+}
+
+.cbar-label {
+  height: 16px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.cbar-unit {
+  margin-top: 8px;
+  opacity: 0.95;
+}
