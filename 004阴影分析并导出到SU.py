@@ -14,7 +14,7 @@ from util.shadowTaichi import analyze_shadow_visibility
 from obj.Geo4RayTest import Geo4RayTest
 from util.img_bake import bake_faces_bilinear, attach_baked_textures_to_geo
 from exportSU import export_geo_tex
-from ShadowAnalysisForSketchUpByPython.exportJson import export_face_stats_json
+from exportJson import export_face_stats_json
 
 def _build_face_normals(geo) -> np.ndarray:
     fn = np.zeros((len(geo.faces), 3), dtype=np.float32)
@@ -172,4 +172,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+
     main()
