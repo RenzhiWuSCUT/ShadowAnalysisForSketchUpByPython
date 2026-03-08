@@ -4,6 +4,8 @@
 
 `pip install numpy taichi shapely pvlib pytz matplotlib`
 
+运行本项目前，请先安装草图大师（SketchUp）2025。
+
 ## 2 使用说明
 
 ### 2.1 导入模型与前处理
